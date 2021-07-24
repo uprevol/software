@@ -278,7 +278,7 @@ class Main(QMainWindow):
             self.frame_21.setStyleSheet("background-color: rgb(27, 29, 35);")
             self.frame_23.setStyleSheet("background-color: rgb(27, 29, 35);")
             self.stack_change()
-            self.widget.setUrl(QtCore.QUrl(f"https://app.hubspot.com/dashboard-library/20309523/"))
+            self.widget.setUrl(QtCore.QUrl(f"https://app.hubspot.com/live-messages/20309523/inbox/"))
         else:
             self.stackedWidget.setCurrentIndex(0)
             self.frame_24.setStyleSheet("background-color: rgb(27, 29, 35);")
