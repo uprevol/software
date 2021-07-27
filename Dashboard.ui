@@ -3668,13 +3668,13 @@ color: rgb(156, 110, 255)</string>
                        <number>18</number>
                       </property>
                       <property name="topMargin">
-                       <number>0</number>
+                       <number>7</number>
                       </property>
                       <property name="rightMargin">
                        <number>18</number>
                       </property>
                       <property name="bottomMargin">
-                       <number>0</number>
+                       <number>3</number>
                       </property>
                       <property name="horizontalSpacing">
                        <number>30</number>

@@ -135,7 +135,9 @@ class Main(QMainWindow):
         self.frame_grip.mouseMoveEvent = moveWindow
 
     def reload_data(self):
+        print("0")
         self.progressBar.setValue(0)
+        print("0")
         self.sql_data()
         self.progressBar.setValue(100)
 

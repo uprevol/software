@@ -322,8 +322,6 @@ border: 1px solid rgb(125, 125, 125);</string>
    </layout>
   </widget>
  </widget>
- <resources>
-  <include location="files.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

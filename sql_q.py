@@ -170,6 +170,7 @@ class sql_queries():
         self.algo(sid)
         self.main()
         return dic_main
+
     def main(self):
         global ls, ls2, check
         for a in ls2:
