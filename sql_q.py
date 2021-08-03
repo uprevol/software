@@ -29,7 +29,6 @@ class sql_queries():
         rows_dic = cur.fetchall()
         print(rows_dic)
         return rows_dic
-
     def sus_history(self, adm_id):
         mycursor = mydb.cursor()
         mycursor.execute("SELECT sn,sus_id,rec_id,worker_id,message,message_to_user,passed_note,passed_date,action,action_date FROM suspicious WHERE assigned_to = %s AND (passed IS NOT NULL OR action IS NOT NULL ) ", [adm_id])  #OR action IS NOT NULL
