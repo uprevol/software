@@ -11,9 +11,9 @@ import json
 def mydb_func():
     global mydb
     mydb = mysql.connector.connect(
-        host="database-1.ck38lmrgzjqj.us-east-2.rds.amazonaws.com",
+        host="uprevolins.cryjzxrydmbi.ap-south-1.rds.amazonaws.com",
         user="admin",
-        password="uprevol1234",
+        password="Uprevol1234",
         database="uprevol"
     )
 

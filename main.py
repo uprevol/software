@@ -16,9 +16,9 @@ WINDOW_SIZE = 0
 global adm_id, username, password, c, name, short_name, dash, rev, sus_d, sus_h, ver_d, ver_h, del_d, del_h
 
 mydb = mysql.connector.connect(
-    host="database-1.ck38lmrgzjqj.us-east-2.rds.amazonaws.com",
+    host="uprevolins.cryjzxrydmbi.ap-south-1.rds.amazonaws.com",
     user="admin",
-    password="uprevol1234",
+    password="Uprevol1234",
     database="uprevol"
 )
 
